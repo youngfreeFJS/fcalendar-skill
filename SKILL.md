@@ -26,9 +26,7 @@ All commands output **single-line JSON** to `stdout`; errors go to `stderr`.
 
 2. **Install** (only if step 1 failed):
    ```bash
-   python3 -m pip install fcalendar -i http://yum.tbsite.net/aliyun-pypi/simple/ \
-     --extra-index-url http://yum.tbsite.net/pypi/simple/ \
-     --trusted-host=yum.tbsite.net
+   python3 -m pip install fcalendar 
    ```
 
 3. **Verify**:

@@ -39,9 +39,7 @@ Queries public holidays and normal weekends within a specified time range:
 ## Installation
 
 ```bash
-python3 -m pip install fcalendar -i http://yum.tbsite.net/aliyun-pypi/simple/ \
-  --extra-index-url http://yum.tbsite.net/pypi/simple/ \
-  --trusted-host=yum.tbsite.net
+python3 -m pip install fcalendar 
 ```
 
 ## Usage
