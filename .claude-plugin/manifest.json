@@ -1,0 +1,14 @@
+{
+  "name": "fcalendar-skill",
+  "version": "0.1.0",
+  "description": "Chinese date/time expression recognition and holiday query tool",
+  "author": "fcalendar-skill contributors",
+  "license": "MIT",
+  "skills": [
+    {
+      "name": "fcalendar-skill",
+      "description": "fcalendar-skill is a Chinese date/time expression recognition and holiday query tool. It can identify and annotate time expressions in natural language text (Chinese and English), such as \"明天\", \"下周一\", \"春节\", \"next Monday\", \"Christmas\", etc., and resolve them to exact calendar dates. It also supports querying Chinese public holidays and normal weekends within a specified time range, covering scenarios like \"本周放假吗\", \"下个月有什么节假日\", \"国庆节什么时候放假\", \"周末能休息吗\". Use this skill when users ask about dates, time expressions, schedules, holidays, or when you need to resolve relative time references to concrete dates.",
+      "file": "SKILL.md"
+    }
+  ]
+}
