@@ -36,6 +36,43 @@ Queries public holidays and normal weekends within a specified time range:
 - `未来N个月` / `months=N` - Next N months
 - `半年` / `half_year` - Next 180 days (default)
 
+## Security
+
+### Package Information
+
+- **PyPI Package**: [fcalendar](https://pypi.org/project/fcalendar/)
+- **Source Code**: [GitHub Repository](https://github.com/youngfreefjs/fcalendar)
+- **License**: MIT-0
+- **Maintainer**: youngfreefjs
+
+### What This Package Does
+
+The `fcalendar` package is a pure Python library that:
+- Parses Chinese and English time expressions
+- Queries Chinese public holiday schedules
+- Does NOT access network resources during runtime
+- Does NOT collect or transmit user data
+- Does NOT require system-level permissions
+
+### Verification
+
+Before installation, you can verify the package:
+
+1. **Check PyPI page**: Visit [https://pypi.org/project/fcalendar/](https://pypi.org/project/fcalendar/)
+2. **Review source code**: Visit the GitHub repository (link above)
+3. **Inspect package contents**:
+   ```bash
+   pip download fcalendar --no-deps
+   tar -tzf fcalendar-*.tar.gz
+   ```
+
+### Security Best Practices
+
+For maximum security, consider:
+- Installing in a virtual environment: `python3 -m venv venv && source venv/bin/activate`
+- Reviewing the source code before installation
+- Using `pip install --user` to avoid system-wide installation
+
 ## Installation
 
 ```bash
@@ -82,6 +119,19 @@ fcalendar holiday --scope weeks=3          # next 3 weeks
 ## License
 
 MIT License - See [LICENSE.txt](LICENSE.txt) for details.
+
+## Contributing
+
+Contributions are welcome! Please visit the [GitHub repository](https://github.com/youngfreefjs/fcalendar) to:
+- Report issues
+- Submit pull requests
+- Review the source code
+
+## Support
+
+- **Issues**: [GitHub Issues](https://github.com/youngfreefjs/fcalendar/issues)
+- **Documentation**: [SKILL.md](SKILL.md)
+- **PyPI**: [fcalendar on PyPI](https://pypi.org/project/fcalendar/)
 
 ## Documentation
 

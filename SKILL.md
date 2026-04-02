@@ -25,8 +25,23 @@ All commands output **single-line JSON** to `stdout`; errors go to `stderr`.
    If this prints a version number, skip to step 3.
 
 2. **Install** (only if step 1 failed):
+   
+   > [!NOTE]
+   > **Package Source**: The `fcalendar` package is available on PyPI at https://pypi.org/project/fcalendar/
+   > 
+   > **Source Code**: You can review the source code at https://github.com/youngfreefjs/fcalendar
+   > 
+   > **Security**: This package only performs local date/time parsing and does not access network resources or collect user data.
+   
    ```bash
    python3 -m pip install fcalendar 
+   ```
+   
+   For enhanced security, consider installing in a virtual environment:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   python3 -m pip install fcalendar
    ```
 
 3. **Verify**:

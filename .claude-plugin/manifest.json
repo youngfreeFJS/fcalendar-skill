@@ -1,9 +1,14 @@
 {
   "name": "fcalendar-skill",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Chinese date/time expression recognition and holiday query tool",
-  "author": "fcalendar-skill contributors",
-  "license": "MIT",
+  "author": "youngfreefjs",
+  "license": "MIT-0",
+  "homepage": "https://github.com/youngfreefjs/fcalendar-skill",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/youngfreefjs/fcalendar-skill.git"
+  },
   "skills": [
     {
       "name": "fcalendar-skill",
